@@ -62,17 +62,12 @@ let geografiaPreguntas = [
     },
     {
         pregunta:"cuantas piedras tiene el rio ariari",
-        respuestas:["io khe ze","next question","las que debe tener"],
-        respuesta:2
+        respuestas:["io khe ze","no tiene","las que debe tener"],
+        respuesta:1
     },
     {
-        pregunta:"cuantas piedras tiene el rio ariari",
-        respuestas:["io khe ze","next question","las que debe tener","test"],
-        respuesta:2
-    },
-    {
-        pregunta:"cuantas piedras tiene el rio ariari",
-        respuestas:["io khe ze","next question","las que debe tener"],
+        pregunta:"mi amorsito me ama",
+        respuestas:["es una ratisha","nel perro","buen dia joven"],
         respuesta:2
     }
     
@@ -85,8 +80,8 @@ let matematicasPreguntas = [
         respuesta:0
     },
     {
-        pregunta:"cuantas piedras tiene el rio ariari",
-        respuestas:["io khe ze","next question","las que debe tener"],
+        pregunta:"pi es 3.14xx",
+        respuestas:["15","16","como dijo el chavo pi pi pi"],
         respuesta:2
     }
 ]
@@ -142,7 +137,7 @@ function insertQuestion(){
     }
 
     else{   
-        question.innerHTML = `<p class="puntaje"> que puntaje de mierda -> ${puntaje} vales monda ${nickname.value}\
+        question.innerHTML = `<p class="puntaje"> que puntaje de mierda, vales ${puntaje} de monda ${nickname.value}\
                                 <p class="button button-center" id="restart">play again!</p>`;
         
         document.getElementById("restart").addEventListener("click",function(){
