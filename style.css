@@ -1,0 +1,159 @@
+
+
+*{
+    margin:0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    align-items: center;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+
+.formulario__datos{
+    padding: 20px 0;
+}
+
+.datos__text{
+    margin: 10px 0 ;
+}
+
+.datos__input{
+    outline: none;
+    padding: 10px 10px;
+    border: 1px solid #F4F4F4;
+    border-radius: 10px;
+}
+
+.answer{
+    margin: 2px 0;
+    padding: 12px 20px;
+    border-radius: 22px;
+    border: 2px solid #F4F4F4;
+    cursor: pointer;
+    color: rgba(109, 105, 105, 0.9);
+
+}
+
+.answer:hover{
+    background-color:#EFEFEF;
+}
+
+
+.button{
+    text-align: center;
+    margin: 10px;
+    width: 120px;
+    color: #5F62B3;
+    padding: 8px 0;
+    border: 1px solid #5F62B3;
+    border-radius: 22px;
+    cursor: pointer;
+}
+
+.button:hover{
+    color: white;
+    background: #36389C;
+}
+
+
+.categories{
+    width: 90%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.category-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.category-info__text{
+    width: 80%;
+}
+
+.category-info__title{
+    margin: 20px 0 ;
+}
+
+.true{
+    background-color:#50C994;
+}
+
+.false{
+    background-color: #EE98B3;
+}
+
+.question{
+    width: 90%;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e0dddd ;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.question__title{
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.question__pregunta{
+    text-align: center;
+    font-weight:500;
+    margin-bottom: 30px;
+}
+
+.puntaje{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.button-center{
+    align-self: center;
+}
+.nonVisible{
+    display: none;
+}
+
+.question__counter{
+    text-align: center;
+}
+
+.question__timer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    align-self: center;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #E8266B;
+    border-radius: 50%;
+    margin:20px 0;
+}
+
+.question__timer--warning{
+    background-color: #E8266B;
+}

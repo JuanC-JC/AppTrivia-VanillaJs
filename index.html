@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="container" id="main-container">
+        <div id="main-section" class="formulario">
+            <h1 class="formulario__titulo">Trivia, como fua prro</h1>
+
+            <div class="formulario__datos">
+                <p class="datos__text">Bienvenido! Este test te dejara flipando!</p>
+                <p class="datos__text">Ingresa tu nombre</p>
+                <input class="datos__input" id="nickname" type="text" placeholder="Nombre / Nickname">
+            </div>
+            <div id="start" class="button">Lets Go!</div>
+            <div id="error"></div>
+        </div>
+
+        <div id="categories" class="nonVisible categories">
+            <section class="category-info">
+                <h2 class="category-info__title">geografia</h2>
+                <p class="category-info__text">ahora averiguaremos que tanto sabes de este asqueroso mundo</p>
+                <div id="button-geografia" class="button">Como fua!</div>
+            </section>
+
+            <section class="category-info">
+                <h2 class="category-info__title">matematicas</h2>
+                <p class="category-info__text">pocos se atreven pero muchos consiguen la gloria, exacto la vecina gloria</p>
+                <div id="button-matematicas" class="button">Como fua!</div>
+            </section>
+        </div>
+
+
+        <div id="question" class="question nonVisible">
+
+        </div>
+    </main>
+
+    <script src="./main.js"></script>
+</body>
+</html>
